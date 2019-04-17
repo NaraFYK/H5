@@ -13,8 +13,8 @@
         // 再一次拒绝它
         d.fillRect(13 * f + 3, 13 * g + 3, 10, 10);
         var circle1 = document.getElementById("circle1")
-        circle1.setAttribute('cx', (26-m-m/4) * f+25)
-        circle1.setAttribute('cy', (26-m-m/4) * g+25)
+        circle1.setAttribute('cx', (36-m-m/4) * f+25)
+        circle1.setAttribute('cy', (36-m-m/4) * g+25)
         // 如果一个角色走出迷宫，我们就创造一个新的迷宫，重新开始游戏。
         f >= c &&mapGen("#canvas", c+(m-m+1), e+(m-m+1), 0, m + 1)
 

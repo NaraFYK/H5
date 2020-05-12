@@ -180,7 +180,7 @@
   // 我们正在重置角色的当前坐标，赋予颜色
   var f = 0,
     g = 0;
-  d.fillStyle = "lightblue";
+  d.fillStyle = "black";
   // 让角色进入迷宫的开始。
   character(-1, -1);
   //移动
